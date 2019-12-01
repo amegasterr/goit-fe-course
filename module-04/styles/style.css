@@ -1,0 +1,116 @@
+
+.name::first-letter {
+    font-size: 30pt;
+    color: rgba(26, 188, 156, 255);
+}
+.name {
+    margin-right: 567px;
+    font-family: sans-serif;
+    font-weight:300;
+    font-size: 20pt;
+    
+    
+}
+.header {
+    text-align: center ;
+    
+}
+.header div {
+    display: inline-block;
+}
+.list {
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+    font-family: 'OpenSans', 'AdobeInvisFont', 'MyriadPro-Regular', sans-serif;
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: small-caps; 
+    }
+.list li {
+    display: inline;
+    max-width: 467px;
+    float: left;
+    height: 10px;
+    display: block;
+}
+.list a {
+    display: block;
+    font-size: 12pt;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.list a:hover {
+    color: rgba(26, 188, 156, 255);
+}
+.Featured {
+    text-align: center;
+    margin-top: 111px;
+    font-size: 48pt;
+    color: rgba(81, 81, 81, 255);
+    font-family: Roboto, sans-serif;
+}
+.line {
+    background-color: rgba(26, 188, 156, 255);
+    border: none;
+    color: rgba(26, 188, 156, 255);
+    margin-top: 32px;
+    width: 164px;
+    height: 7px;
+    text-align: center;
+}
+.firstProducts{
+    overflow:hidden;
+    
+}
+.box{
+    white-space:nowrap;
+    width: 1180px;
+    margin: 0 auto;
+    
+    
+}
+
+.box div.img {
+    position: relative;
+    width: 255px;
+    height: 322px;
+    float: left;
+    border:1px solid black;
+
+}
+
+.box div.products {
+    position: absolute;
+    left: -83px ; right: 35px; top: -17px ; bottom: 58px ;
+    width:343 ;
+    height: 281 ;
+    border: none;
+}
+
+
+.box div {
+    margin-left: 30px ;
+    width: 255px;
+    height: 322px;
+    float: left;
+    border:1px solid black;
+ 
+}
+.box div.img1 {
+    position: relative;
+    width: 176px;
+    height: 246px;
+    float: left;
+    border:1px solid black;
+}
+.box div.products1 {
+    position: absolute;
+    left: -20px ; right: 43px; top: 22px ; bottom: 54px ;
+    width:343 ;    
+    height: 281 ;    
+    border: none;
+}
+
+
