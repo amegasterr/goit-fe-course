@@ -64,7 +64,7 @@
     overflow:hidden;
     
 }
-.box{
+.box {
     white-space:nowrap;
     width: 1180px;
     margin: 0 auto;
@@ -78,6 +78,7 @@
     height: 322px;
     float: left;
     border:1px solid black;
+    
 
 }
 
@@ -96,21 +97,169 @@
     height: 322px;
     float: left;
     border:1px solid black;
- 
+    
+    
 }
 .box div.img1 {
+    margin-left: 0px ;
     position: relative;
-    width: 176px;
-    height: 246px;
-    float: left;
-    border:1px solid black;
+    background-color: #e9f0fd;
+    border: none;
+    
+
 }
+
 .box div.products1 {
     position: absolute;
-    left: -20px ; right: 43px; top: 22px ; bottom: 54px ;
-    width:343 ;    
-    height: 281 ;    
+    left: 2px ; right: 43px; top: 22px ; bottom: 54px ;
+    width:343 ;
+    height: 281 ;
     border: none;
+}
+.box div.img2 {
+    margin-left: 0px ;
+    position: relative;
+    background-color: #e9f0fd;
+    border: none;
+    
+
+}
+.box div.border {
+    margin-left: 25px;
+}
+
+.box div.products2 {
+    position: absolute;
+    left: -13px ; right: 13px; top: 71px ; bottom: 43px ;
+    width:343 ;
+    height: 281 ;
+    border: none;
+}
+.box div.img3 {
+    margin-left: 0px ;
+    position: relative;
+    background-color: #e9f0fd;
+    border: none;
+    
+
+
 }
 
 
+.box div.products3 {
+    position: absolute;
+    left: -17px ; right: 8px; top: 70px ; bottom: 48px ;
+    width:343 ;
+    height: 281 ;
+    border: none;
+}
+.box1 {
+    white-space:nowrap;
+    width: 1180px;
+    margin: 30px auto;
+    
+    
+}
+.box1 div {
+    margin-left: 30px ;
+    width: 255px;
+    height: 322px;
+    float: left;
+    
+    display: inline-block;
+}
+.box1 div.img4 {
+    margin-left: 0px ;
+    position: relative;
+    background-color: #e9f0fd;
+    border: 1px solid rgb(0, 0, 0);
+}
+.box1 div.products4 {
+    position: absolute;
+    left: -2px ; right: 25px; top: 13px ; bottom: 96px ;
+    width:198 ;
+    height: 213 ;
+    border: none;
+}
+.box1 div.img5 {
+    margin-left: 0px;
+    position: relative;
+    background-color: #e9f0fd;
+    border: 1px solid black;
+}
+.box1 div.products5 {
+    position: absolute;
+    left: -32px ; right: 6px; top: 51px ; bottom: 91px ;
+    width:260px ;
+    height: 180px ;
+    border: none;
+}
+.box1 div.img6 {
+    margin-left: 0px;
+    position: relative;
+    background-color: #e9f0fd;
+    border: 1px solid black;
+}
+.box1 div.products6 {
+    position: absolute;
+    left: 0px ; right: 27px; top: 24px ; bottom: 58px ;
+    width:196px ;
+    height: 240px ;
+    border: none;
+}
+.box1 div.img6 {
+    margin-left: 0px;
+    position: relative;
+    background-color: #e9f0fd ;
+    border: 1px solid black;
+}
+.box1 div.products6 {
+    position: absolute;
+    left: 0px ; right: 27px; top: 24px ; bottom: 58px ;
+    width:196px ;
+    height: 240px ;
+    border: none;
+}
+.box1 div.img6 {
+    margin-left: 0px;
+    position: relative;
+    background-color: #e9f0fd;
+    border: 1px solid black;
+}
+.box1 div.products6 {
+    position: absolute;
+    left: 0px ; right: 27px; top: 24px ; bottom: 58px ;
+    width:196px ;
+    height: 240px ;
+    border: none;
+}
+.box1 div.img7 {
+    margin-left: 0px;
+    position: relative;
+    background-color: #e9f0fd;
+    border: 1px solid black;
+}
+.box1 div.products7 {
+    position: absolute;
+    left: -20px ; right: 8px; top: 97px ; bottom: 127px ;
+    width:234px ;
+    height: 98px ;
+    border: none;
+}
+.box1 div.shop {
+
+}
+.box1 div.money {
+
+}
+.box1 div.panel {
+    margin-top: -282px;
+    width: 255px;
+    height: 40px;
+}
+.article {
+    text-align: left;
+}
+.span {
+    font-family: "Open Sans"
+}
