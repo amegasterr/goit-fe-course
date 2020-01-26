@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/RobotoSlab-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/Wisdom Script AJ.otf");
+}
+
+@font-face {
+    font-family: 'DroidSerif-Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/DroidSerif-Italic.ttf');
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 26px;
+    color: #fed136;
+    font-family: 'Wisdom Script Regular';
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.listItem {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+}
+
+.listItem:hover {
+    color: #fed136;
+}
+
+.services {
+    background-color: #ffffff;
+    height: 560px;
+    margin-top: 127px;
+    margin-bottom: 19px;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222222;
+    margin-bottom: 19px;
+}
+
+.description {
+    font-size: 16px;
+    color: #a2a2a2;
+    font-family: "DroidSerif-Italic";
+}
+
+.branches {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.branchItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.branchItemImage {
+    border: 4px solid #fed136;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    position: relative;
+}
+
+.branchItemImageIcon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20px, -20px);
+}
+
+.branchItemTitle {
+    margin-top: 27px;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.branchItemText {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    color: #a2a2a2;
+}
+
+.contact {
+    background-color: #222222;
+    height: 677px;
+    position: relative;
+}
+
+.whiteTitle {
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.contactBackgroundImage {
+    position: absolute;
+    width: 614px;
+    height: 537;
+    bottom: 20px;
+    right: 0;
+}
+
+.form {
+    width: 940px;
+    margin-top: 76px;
+}
+
+.inputArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 455px;
+    height: 210px;
+}
+
+.formArea {
+    width: 455px;
+    height: 210px;
+}
+
+#newMessage {
+    width: 455px;
+    height: 210px;
+}
+
+.inputItem {
+    width: 455px;
+    height: 50px;
+}
+
+.inputItem,
+#newMessage {
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.inputItem::placeholder,
+#newMessage::placeholder {
+    font-family: 'Montserrat';
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #a2a2a2;
+}
+
+.formButton {
+    text-transform: uppercase;
+    width: 240px;
+    height: 66px;
+    background-color: #fed136;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}
