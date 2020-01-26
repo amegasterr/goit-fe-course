@@ -1,0 +1,14 @@
+margin o auto - Выравнивание только блоки
+text - align center - выравнивание только родитель inline / inline-block
+line - height - высота линии
+
+
+Live server
+Live HTML Previewer 
+Live server Preview
+скачать
+наVSCODE
+
+
+CSSMATIC
+
